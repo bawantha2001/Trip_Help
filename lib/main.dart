@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
+import 'package:self_employer/features/App/login/Bookings.dart';
 import 'package:self_employer/features/App/login/First.dart';
 import 'package:self_employer/features/App/login/Loading_Page.dart';
 import 'package:self_employer/features/App/login/Login.dart';
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context){
-    return  const MaterialApp(
-      home:First(),
+    return  MaterialApp(
+      home:Bookings(),
       debugShowCheckedModeBanner: false,
     );
   }
